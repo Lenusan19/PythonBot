@@ -19,7 +19,7 @@ async def on_ready():
 async def on_typing(channel, user, when):
      await channel.send(user.name+"en train de ```rediger MeinKampf```")
 
-@client.even
+@client.event
 async def on_member_join(member):
     general_channel = client.get_channel(1091343630473646191)
     await general_channel.send("Bienvenue sur le serveur ! "+ member.name)

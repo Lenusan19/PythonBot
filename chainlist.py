@@ -1,15 +1,26 @@
-class node : 
-    def _init_(self,data) :
+class Node:
+    def __init__(self, data):
         self.data = data
-        self.next_node = None
+        self.next = None
+class Stack:
+    def __init__(self):
+        self.top = None
 
+    def push(self, data):
+        new_node = Node(data)
+        new_node.next = self.top
+        self.top = new_node
 
- class list_chained_sorted :
-     def _init_(self,data):
-         self.first_node = node(data)
-         
-def add_node(data):
-    current_node = self.first_node
-    while current_node.next_node != None :
-        current_node = current_node.next_node
-        i+= 1              
+    def pop(self):
+        if self.top is None:
+            return None
+        else:
+            popped_node = self.top
+            self.top = self.top.next
+            return popped_node.data
+
+    def peek(self):
+        if self.top is None:
+            return None
+        else:
+            return self.top.data
