@@ -4,7 +4,7 @@ Voici la liste des commande de mon bot
 
     $sondage question option1 option2 ... - Crée un sondage avec une question et des options. Les membres peuvent réagir pour voter. exemple
     
-    $sondage "Quelle est votre couleur préférée ?" "Rouge" "Bleu" "Vert" 
+    $sondage "Quelle est votre couleur préférée ?" "Rouge" "Bleu" "Vert" dans la premiere guillement la question puis dans les 2 autres les choix 
     ahaha j'avais oublier les guillemets lors de l'oral ahahah .... je veux mourir ....
   
 
