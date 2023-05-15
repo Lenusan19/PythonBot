@@ -1,0 +1,34 @@
+Voici la liste des commande de mon bot
+
+
+
+    $sondage question option1 option2 ... - Crée un sondage avec une question et des options. Les membres peuvent réagir pour voter. exemple
+    
+    $sondage "Quelle est votre couleur préférée ?" "Rouge" "Bleu" "Vert" 
+    ahaha j'avais oublier les guillemets lors de l'oral ahahah .... je veux mourir ....
+  
+
+    $hist - Affiche l'historique des commandes que vous avez utilisées.
+
+    $prev - Retourne en arrière dans l'historique des commandes.
+
+    $next - Avance dans l'historique des commandes.
+
+    $clearcmd - Efface l'historique des commandes.
+
+    $clearmsg - Supprime les messages dans le canal (limité à 15).
+
+    $conv - Démarre une conversation avec le bot.
+
+    $reset - Réinitialise la conversation avec le bot.
+
+    $info - Affiche les informations du bot.
+
+    $jeux - Joue à Pierre, Papier, Ciseaux avec le bot.
+
+    ne marche pas ..... $gpt message - (Cette commande est commentée dans le code) Utilise le modèle ChatGPT pour répondre à un message.
+
+   ne marche pas ..... $play url - (Cette commande est commentée dans le code) Joue de la musique à partir d'une URL YouTube.
+
+    ne marche pas .....$stop - (Cette commande est commentée dans le code) Arrête la musique et déconnecte le bot du salon vocal.
+
