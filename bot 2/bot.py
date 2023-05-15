@@ -6,7 +6,7 @@ import json
 import youtube_dl
 import random 
 import asyncio
-import openai
+#import openai
 
 
 
@@ -359,7 +359,7 @@ async def jeux(ctx):
 
     
     
-    # Lancement du bot 
+    
 bot.run("MTA5MTMzNDc4MjUyNjQyMzEyNA.G3zT9y.ttu30r9dXoCHpCVnmKwfyfmyPl1BNmzQlWBDXQ")
 
 
